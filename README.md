@@ -4,6 +4,7 @@
 Curso de Inverno para Maratona de Programação promovido no Instituto de Ciência e Tecnologia da Universidade Federal de São Paulo (ICT/UNIFESP)
 
 ![Mascote](https://scontent.fcpq1-1.fna.fbcdn.net/v/t1.0-9/13336023_1549499118687120_5895377572514817945_n.png?oh=18c9d5cdcb77315e2782dd2126ceb86b&oe=57F401DC)
+
 [Link do Curso](http://programathonunifesp.wix.com/cursodeinverno)
 
 Visando orientar e preparar os alunos dos cursos de graduação e início de pós-graduação da área de computação para a Maratona de Programação, competição organizada pela Sociedade Brasileira de Computação (SBC), o evento é uma iniciativa do "Projeto de Ensino e Aprendizagem de Programação para Olimpíadas", um projeto de extensão do Instituto de Ciência e Tecnologia da Universidade Federal de São Paulo (ICT-UNIFESP) de São José dos Campos, coordenado pelo Prof. Dr. Reginaldo Massanobu Kuroshu.
