@@ -32,9 +32,6 @@ Visando orientar e preparar os alunos dos cursos de graduação e início de pós-gr
 	* 15/07: Competição
 	
 * Palestrantes:
-	*Abertura
-	Prof. Me. Fernando Masanori Ashikaga
-	Área: Desenvolvimento de Sistemas e Pesquisas em Ciência da Computação
 	
 	* Abertura
 	Prof. Me. Fernando Masanori Ashikaga
