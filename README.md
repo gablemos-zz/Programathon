@@ -9,69 +9,73 @@ Curso de Inverno para Maratona de Programação promovido no Instituto de Ciência 
 
 Visando orientar e preparar os alunos dos cursos de graduação e início de pós-graduação da área de computação para a Maratona de Programação, competição organizada pela Sociedade Brasileira de Computação (SBC), o evento é uma iniciativa do "Projeto de Ensino e Aprendizagem de Programação para Olimpíadas", um projeto de extensão do Instituto de Ciência e Tecnologia da Universidade Federal de São Paulo (ICT-UNIFESP) de São José dos Campos, coordenado pelo Prof. Dr. Reginaldo Massanobu Kuroshu.
 
-*Curso teórico: Introdução de conceitos e estratégias necessários à aquisição de habilidades e técnicas relacionadas à competição por meio de palestras para exposição de tópicos de computação e matemática que são exigidos de forma recorrente.
-	*Carga Horária: 15 horas
-	*Horário: das 19h00 às 20h30
-	*Local: Auditório
+* Curso teórico: Introdução de conceitos e estratégias necessários à aquisição de habilidades e técnicas relacionadas à competição por meio de palestras para exposição de tópicos de computação e matemática que são exigidos de forma recorrente.
+	* Carga Horária: 15 horas
+	* Horário: das 19h00 às 20h30
+	* Local: Auditório
 
-*Curso prático: Resolução, análise e discussão de problemas relacionados a cada um dos tópicos apresentados no Curso Teórico.
-	*Carga Horária: 15 horas
-	*Horário: das 20h30 às 22h
-	*Local: Auditório/Laboratório de Informática Anexo
+* Curso prático: Resolução, análise e discussão de problemas relacionados a cada um dos tópicos apresentados no Curso Teórico.
+	* Carga Horária: 15 horas
+	* Horário: das 20h30 às 22h
+	* Local: Auditório/Laboratório de Informática Anexo
 
-*Palestras:
-	*04/07: Abertura & Introdução ao Raciocínio Matemático
-	*05/07: Divisão e Conquista & Projeto por indução
-	*06:07: Backtracking
-	*07/07: Programação Dinâmica
-	*08/07: Algoritmos Gulosos
-	*11/07: Grafos I
-	*12/07: GeometriaComputacional
-	*13/07: Grafos II
-	*14/07: Tópicos em Teoriados Números
-	*15/07: Competição
+* Palestras:
+	* 04/07: Abertura & Introdução ao Raciocínio Matemático
+	* 05/07: Divisão e Conquista & Projeto por indução
+	* 06:07: Backtracking
+	* 07/07: Programação Dinâmica
+	* 08/07: Algoritmos Gulosos
+	* 11/07: Grafos I
+	* 12/07: GeometriaComputacional
+	* 13/07: Grafos II
+	* 14/07: Tópicos em Teoriados Números
+	* 15/07: Competição
 	
-*Palestrantes:
+* Palestrantes:
 	*Abertura
 	Prof. Me. Fernando Masanori Ashikaga
 	Área: Desenvolvimento de Sistemas e Pesquisas em Ciência da Computação
+	
+	* Abertura
+	Prof. Me. Fernando Masanori Ashikaga
+	Área: Desenvolvimento de Sistemas e Pesquisas em Ciência da Computação
 
-	*Introdução ao Raciocínio Matemático
+	* Introdução ao Raciocínio Matemático
 	Prof. Dr. Thiago Castilho de Mello
 	Área: Matemática/Álgebra não-comutativa
 
-	*Divisão e Conquista / Projeto por Indução
+	* Divisão e Conquista / Projeto por Indução
 	Prof. Dr. Jurandy Gomes de Almeida Júnior
 	Área: Recuperação da Informação
 
-	*Backtracking
+	* Backtracking
 	Prof. Dr. Reginaldo Massanobu Kuroshu
 	Área: Bioinformática e Biologia Computacional
 
-	*Programação Dinâmica
+	* Programação Dinâmica
 	Prof. Dr. Jurandy Gomes de Almeida Júnior
 	Área: Recuperação da Informação
 
-	*Algoritmos Gulosos
+	* Algoritmos Gulosos
 	Prof. Dr. Reginaldo Massanobu Kuroshu	
 	Área: Bioinformática e Biologia Computacional
 
-	*Grafos I
+	* Grafos I
 	Prof. Dr. Arlindo Flávio da Conceição
 	Área: Redes e Sistemas Distribuídos
 
-	*Geometria Computacional
+	* Geometria Computacional
 	Prof. Dr. Marcelo Cristino Gama
 	Área: Matemática
 
-	*Grafos II
+	* Grafos II
 	Prof. Dra. Mariá Cristina Vasconcelos Nascimento
 	Área: Otimização/Sistemas Inteligentes
 
-	*Tópicos em Teoria dos Números
+	* Tópicos em Teoria dos Números
 	Prof. Dra. Grasielle Jorge
 	Área: Matemática/Teoria algébrica dos números/Teoria da Informação
 	
-	*Competição
+	* Competição
 	Prof. Me. Eduardo Sakaue
 	Área: Segurança da Informação
