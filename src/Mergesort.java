@@ -1,79 +1,64 @@
-import java.util.Scanner;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package br.daruma.MergeSort;
 
-public class Mergesort {
-	
-	public static void main(String[] args) {
-		
-		Scanner s = new Scanner(System.in);
-		
-		System.out.println("Quantidade de valores:");
-		int qtd = s.nextInt();
-		
-		System.out.println("Digite " + qtd + " valores:");
-		int[] x = new int[qtd];
-		
-		for(int i = 0; i<x.length;i++){
-			x[i] = s.nextInt();
-		}
-		
-		mergesort(qtd, x);
-		
-		for(int i = 0; i<x.length;i++){
-			System.out.print(x[i] + " "); 
-		}
-		s.close();		
-	}
-	static int[] mergesort(int n, int[] x){
-		if (n == 1)
-			return x;
-		
-		if (n == 2){
-			if(x[0] > x[1]){
-				int t = x[0];
-				x[0] = x[1];
-				x[1] = t;
-			}
-			return x;
-		}
-		
-		else if( n > 2){
-			
-			int m = n/2;
-			
-			int[] a = new int[(m-1)];
-			int[] b = new int[(n-m)];
-			
-			for(int i = 0; i<(m-1);i++){
-				a[i] = x[i];
-			}
-			
-			for(int i = m; i<(n-1);i++){
-				b[i-m] = x[i];
-			}
-			
-			mergesort(m,a);
-			mergesort((n-m), b);
-			
-			int i,j = 0;
-			i=0;
-			
-			for(int k = 0; k<(n-1); k++){
-				
-				if(a[i] <= b[i]){
-					x[k] = a[i];
-					i++;
-				}
-				
-				else{
-					x[k] = b[j];
-					j++;
-				}
-				
-			}
-			return x;
-		}
-		
-		return x;
-	}
+/**
+ *
+ * @author Daruma
+ */
+public class MergeSort {
 
+    static void Merge(int vet[], int inicio, int meio, int fim){
+        int i,z,j,k;
+        z = inicio;
+        j = meio+1;
+        k = inicio;
+        int aux[] = new int[vet.length];
+        
+        for(i=inicio;i<=fim;i++){
+            aux[i] = vet[i];
+        }
+        
+        while(z<=meio && j<=fim){
+            if(aux[z] < aux[j]){
+              vet[k] = aux[z];
+               z++;
+            }
+            else{
+                vet[k] = aux[j];
+                j++;
+            }
+             k++;  
+        }
+        while(z<=meio){
+            vet[k] = aux[z];
+            k++;
+            z++;
+        }
+        
+        System.out.print("vet[ ");
+        for(int ini=0;ini<vet.length;ini++)
+            System.out.print(vet[ini] + " ");
+        System.out.println("]");
+    }
+    
+    static void MergeSort(int vet[],int inicio,int fim){
+        int meio;
+        if(inicio<fim){
+            meio = (inicio+fim) / 2;
+            MergeSort(vet,inicio,meio);
+            MergeSort(vet,meio+1,fim);
+            Merge(vet,inicio,meio,fim);
+        }
+    }
+    
+    public static void main(String[] args) {
+        int vet[] = new int[]{55, 76, 26, 64, 26, 80, 71, 46};
+        MergeSort(vet,0,vet.length-1);
+       
+    }
+    
 }
